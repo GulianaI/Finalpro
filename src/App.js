@@ -1,14 +1,18 @@
 import React from 'react';
-
-import './App.css';
+import Nav from './components/nav';
+import SBCards from './components/sbCards';
+import SYCards from './components/syCards';
 
 function App() {
-  return (
+ 
+  return ( 
     <div className="App">
-    
-     
+     <Nav/>
+     <SBCards/>
+     <SYCards/>
     </div>
   );
+
 }
 
 export default App;
